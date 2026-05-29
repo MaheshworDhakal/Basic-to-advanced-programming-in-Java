@@ -1,4 +1,5 @@
-import javax.swing.*;
+import javax.swing.*;//to use swing concepts
+
 
 public class Simpleframe {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Simpleframe {
 
         // Frame settings
         frame.setSize(400, 300);
-       // frame.setLayout(null);//for the center 
+        frame.setLayout(null); 
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

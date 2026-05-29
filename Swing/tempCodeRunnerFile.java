@@ -1,1 +1,2 @@
-label.setBounds(50, 50, 100, 30);
+
+        JPanel panel = new JPanel();
